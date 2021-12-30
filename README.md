@@ -1,8 +1,8 @@
-# Project Name
+# Use All The Memory
 
 ## Introduction
 
-This template is for creating a new project. Please replace this section with your project's introduction.
+A replica of [Use All The Memory](https://github.com/acrois/UseAllTheMemory) by Aaron Croissette but written in Python by Johnny Irvin.
 
 ## Usage
 
@@ -15,7 +15,7 @@ python run.py
 
 If you prefer to use docker, you can use the docker image.
 ```bash
-docker run -t myproject --target RUN .
+docker build -t myproject --target RUN .
 docker run myproject
 ```
 
@@ -24,7 +24,7 @@ To test the library, you can use the `run_tests.py` script. It is highly recomme
 
 Using docker, you can run the following commands to run the tests.
 ```bash
-docker run -t tests --target TEST .
+docker build -t tests --target TEST .
 docker run tests
 ```
 
